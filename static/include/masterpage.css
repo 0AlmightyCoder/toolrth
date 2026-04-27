@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    display: flex;
+    background-color: lightpink;
+    justify-content: space-around;
+}
+
+#site-logo {
+    display: flex;
+    color: black;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#footer-design {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
